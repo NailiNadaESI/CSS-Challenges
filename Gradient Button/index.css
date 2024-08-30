@@ -1,0 +1,49 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #1E1F25;
+}
+
+:root {
+    --font-family: 'Karla', sans-serif;
+    --body-bg: #1E1F25;
+    --btn-bg: #000;
+    --btn-color: #cbcbcb;
+    --btn-color-hover: #fff;
+    --grad-color1: #eeaf61;
+    --grad-color2: #fb9062;
+    --grad-color3: #ee5d6c;
+    --grad-color4: #ce4993;
+    --grad-color5: #6a0d83;
+}
+.container {
+    /*max-width: fit-content;*/
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+  }
+.button{
+    font-family: var(--font-family);
+    background-color: var(--btn-bg);
+    color: #cbcbcb;
+    background-color: #000;
+    height: 50px;
+    width: 100px;
+    border: none;
+}
+
+.button-border{
+    padding: 2px;
+    background: linear-gradient(115deg, var(--grad-color1),var(--grad-color2),var(--grad-color3),var(--grad-color4),var(--grad-color5))
+}
+.button:hover{
+    color: #fff;
+    height: 52px;
+    width: 102px;
+}
+.button-border:hover{
+    padding:2px;
+    background: linear-gradient(295deg, var(--grad-color1),var(--grad-color2),var(--grad-color3),var(--grad-color4),var(--grad-color5));
+}
